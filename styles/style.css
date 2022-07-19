@@ -1,0 +1,170 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ---------------------
+Banner Section Start
+------------------------*/
+.banner-section {
+    display: flex;
+    background-color: black;
+    width: 80%;
+    height: 530px;
+    margin-top: 50px;
+    margin-left: 120px;
+    border-radius: 20px;
+
+
+}
+
+.banner-info {
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.banner-title {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0%;
+}
+
+.text {
+    font-size: 15px;
+    color: lightblue;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: rgb(234, 44, 11);
+    text-decoration: none;
+    color: white;
+    padding: 12px 26px;
+    border-radius: 5px;
+
+}
+
+.fa-solid {
+    padding-left: 10px;
+}
+
+.banner-img img {
+    width: 420px;
+    height: 510px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+/* ---------------------
+Banner Section End
+------------------------*/
+
+/* ---------------------
+Navigation Section Start
+------------------------*/
+.navigation {
+    width: 280px;
+    height: 280px;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.navigation ul {
+    list-style: none;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: black;
+}
+
+.list {
+    background-color: white;
+    width: 180px;
+    height: 44px;
+    font-size: 17px;
+    padding-top: 15px;
+    border-radius: 10px;
+    margin-left: 9px;
+    margin-bottom: 30px;
+
+}
+
+.list2 {
+    background-color: blue;
+    width: 180px;
+    height: 44px;
+    font-size: 17px;
+    padding-top: 15px;
+    border-radius: 10px;
+    margin-left: 9px;
+
+}
+
+.navigation li .btn {
+    color: white;
+}
+
+.navigation li:hover {
+    background-color: red;
+}
+
+
+/* ---------------------
+Navigation Section End
+------------------------*/
+
+/* ---------------------
+Article Section Start
+------------------------*/
+
+.article-section {
+    display: flex;
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 15px;
+    column-gap: 15px;
+    margin-left: 15px;
+
+
+}
+
+.blog {
+    width: 250px;
+    height: 350px;
+    background-color: rgb(252, 247, 247);
+    border-radius: 10px;
+}
+
+.blog-img {
+    margin-bottom: 20px;
+}
+
+.blog-info {
+    padding-left: 20px;
+}
+
+.button2 {
+    text-decoration: none;
+    color: #161616;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    padding: 5px 15px;
+
+}
+
+.icon {
+    color: rgb(88, 83, 83);
+    margin-right: 10px;
+}
