@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin: 0 auto;
 }
 
 /* ---------------------
@@ -49,8 +49,15 @@ Banner Section Start
     color: white;
     padding: 12px 26px;
     border-radius: 5px;
+    box-shadow: inset 0 0 0 0 #067bf9;
+    transition: linear 1.5s;
 
 }
+
+.button:hover {
+    box-shadow: inset 300px 0 0 0 #067bf9;
+}
+
 
 .fa-solid {
     padding-left: 10px;
@@ -71,9 +78,9 @@ Banner Section End
 Navigation Section Start
 ------------------------*/
 .navigation {
-    width: 280px;
+    width: 260px;
     height: 290px;
-    background-color: black;
+    background-color: rgb(32, 4, 4);
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -99,7 +106,7 @@ Navigation Section Start
     font-weight: 700;
     padding-top: 20px;
     border-radius: 10px;
-    margin-left: 9px;
+    margin-left: 1px;
     margin-bottom: 30px;
 
 }
@@ -112,7 +119,7 @@ Navigation Section Start
     font-weight: 700;
     padding-top: 20px;
     border-radius: 10px;
-    margin-left: 9px;
+    margin-left: 1px;
     margin-bottom: 30px;
 
 }
@@ -195,7 +202,7 @@ Article Section End
 Footer Section Start
 ------------------------*/
 footer {
-    background-color: #161616;
+    background-color: rgb(36, 36, 60);
     margin-top: 100px;
 }
 
@@ -241,7 +248,7 @@ footer hr {
 }
 
 .footer-icons a {
-    color: #B9B9B9;
+    color: rgb(239, 229, 229);
 }
 
 .footer-icons .filled {
@@ -278,3 +285,202 @@ footer hr {
 .match-info p {
     color: rgb(88, 83, 83);
 }
+
+/*-----------------------------
+     Match Section End
+-----------------------------*/
+
+
+/*----------------------------
+  Media Query for Mobile Phone
+ -----------------------------*/
+@media only screen and (max-width:576px) {
+
+
+    .banner-section {
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+    }
+
+    .banner-info {
+        margin-left: 0;
+        padding: 20px;
+
+    }
+
+    .banner-title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .text {
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        padding-bottom: 20px;
+    }
+
+    .button {
+        margin-left: 27%;
+    }
+
+    .banner-img img {
+        width: 280px;
+        height: 360px;
+        padding-left: 80px;
+        padding-top: 50px;
+    }
+
+    .article-section {
+        display: block;
+        margin-top: 20px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .navigation {
+        background: none;
+        padding-left: 70px;
+    }
+
+    .list {
+        background-color: rgb(252, 247, 247);
+        ;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blog {
+        margin-left: 60px;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    footer hr {
+        width: 300px;
+    }
+
+    .footer-menu ul {
+        display: block;
+        text-align: center;
+    }
+
+    .footer-menu .margin {
+        margin-left: 0;
+        padding-bottom: 60px;
+    }
+
+    .footer-menu .contact {
+        padding-bottom: 60px;
+    }
+
+    .match {
+        margin-left: 50px;
+    }
+
+}
+
+/* -----------End----------- */
+
+/*----------------------------
+  Media Query for Tablet
+ -----------------------------*/
+@media only screen and (min-width:577px) and (max-width:992px) {
+
+    .banner-section {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+    }
+
+    .banner-info {
+        margin-left: 0;
+        padding: 40px;
+
+    }
+
+    .banner-title {
+        font-size: 40px;
+    }
+
+    .banner-img img {
+        width: 380px;
+        height: 510px;
+        padding-top: 20px;
+    }
+
+    .article-section {
+        display: block;
+        margin-top: 20px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .navigation {
+        width: 100%;
+        height: auto;
+        background: none;
+    }
+
+    .navigation ul {
+        display: flex;
+        padding-left: 14%;
+    }
+
+    .list {
+        background-color: rgb(252, 247, 247);
+        ;
+        margin-left: 15px;
+    }
+
+    .list2 {
+        margin-left: 15px;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 0;
+    }
+
+    .blog {
+        margin-left: 15%;
+    }
+
+    .last {
+        display: none;
+    }
+
+    .extra-btn {
+        display: block;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    footer hr {
+        width: 700px;
+    }
+
+    .footer-menu ul {
+        display: flex;
+    }
+
+    .footer-menu .margin {
+        margin-left: 20px;
+        padding-bottom: 60px;
+    }
+
+    .match {
+        margin-left: 15%;
+    }
+}
+
+/* ----------End----------- */
