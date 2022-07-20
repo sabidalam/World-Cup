@@ -14,7 +14,7 @@ Banner Section Start
     margin-top: 50px;
     margin-left: 120px;
     border-radius: 20px;
-    transition: background-color 1s ease-in;
+    transition: background-color 1.5s ease-in;
 }
 
 .banner-section:hover {
@@ -72,7 +72,7 @@ Navigation Section Start
 ------------------------*/
 .navigation {
     width: 280px;
-    height: 280px;
+    height: 290px;
     background-color: black;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -95,8 +95,9 @@ Navigation Section Start
     background-color: white;
     width: 180px;
     height: 44px;
-    font-size: 17px;
-    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 20px;
     border-radius: 10px;
     margin-left: 9px;
     margin-bottom: 30px;
@@ -107,8 +108,9 @@ Navigation Section Start
     background-color: red;
     width: 180px;
     height: 44px;
-    font-size: 17px;
-    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 20px;
     border-radius: 10px;
     margin-left: 9px;
     margin-bottom: 30px;
@@ -152,7 +154,7 @@ Article Section Start
 .blog {
     width: 250px;
     height: 350px;
-    background-color: rgb(252, 247, 247);
+    background-color: rgb(253, 250, 250);
     border-radius: 10px;
 }
 
@@ -224,6 +226,10 @@ footer hr {
     color: #B9B9B9;
 }
 
+.footer-menu {
+    padding-right: 40px;
+}
+
 .footer-menu .margin {
     margin-left: 50px;
 }
@@ -240,4 +246,35 @@ footer hr {
 
 .footer-icons .filled {
     margin-left: 30px;
+}
+
+/* ---------Footer Section End---------- */
+
+/*-----------------------------
+     Match Section Start
+-----------------------------*/
+
+.match {
+    width: 270px;
+    height: 250px;
+    background-color: rgb(252, 247, 247);
+    border-radius: 10px;
+}
+
+.match-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.match-img .vs {
+    padding: 0 10px;
+}
+
+.match-info {
+    text-align: center;
+}
+
+.match-info p {
+    color: rgb(88, 83, 83);
 }
