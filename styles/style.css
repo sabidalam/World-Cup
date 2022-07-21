@@ -83,6 +83,7 @@ Navigation Section Start
     background-color: rgb(32, 4, 4);
     border-radius: 10px;
     margin-bottom: 20px;
+    margin-right: 15px;
 }
 
 .navigation ul {
@@ -145,7 +146,7 @@ Article Section Start
 .article-section {
     display: flex;
     margin-top: 120px;
-    margin-left: 80px;
+    margin-left: 20px;
 }
 
 .blogs {
@@ -153,13 +154,15 @@ Article Section Start
     grid-template-columns: repeat(3, 1fr);
     row-gap: 15px;
     column-gap: 15px;
-    margin-left: 15px;
+    /* margin-left: 30px; */
+    width: 100%;
+    margin-right: 29px;
 
 
 }
 
 .blog {
-    width: 250px;
+    width: 312px;
     height: 350px;
     background-color: rgb(253, 250, 250);
     border-radius: 10px;
@@ -262,7 +265,7 @@ footer hr {
 -----------------------------*/
 
 .match {
-    width: 270px;
+    width: 308px;
     height: 250px;
     background-color: rgb(252, 247, 247);
     border-radius: 10px;
@@ -332,6 +335,7 @@ footer hr {
         height: 360px;
         padding-left: 80px;
         padding-top: 50px;
+        padding-right: 0;
     }
 
     .article-section {
@@ -343,7 +347,7 @@ footer hr {
 
     .navigation {
         background: none;
-        padding-left: 70px;
+        padding-left: 60px;
     }
 
     .list {
@@ -356,7 +360,7 @@ footer hr {
     }
 
     .blog {
-        margin-left: 60px;
+        margin-left: 41px;
     }
 
     footer {
@@ -382,7 +386,7 @@ footer hr {
     }
 
     .match {
-        margin-left: 50px;
+        margin-left: 45px;
     }
 
 }
@@ -450,7 +454,7 @@ footer hr {
     }
 
     .blog {
-        margin-left: 15%;
+        margin-left: 11%;
     }
 
     .last {
@@ -479,7 +483,7 @@ footer hr {
     }
 
     .match {
-        margin-left: 15%;
+        margin-left: 12%;
     }
 }
 
